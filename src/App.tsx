@@ -16,7 +16,7 @@ export default function App() {
         <div className="App seoul-hangang">
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/movie-app" element={<Home />} />
             <Route path="/playing" element={<PlayingMoviePage />} />
             <Route path="/popular" element={<PopularMoviePage />} />
             <Route path="/year" element={<YearPage />} />
